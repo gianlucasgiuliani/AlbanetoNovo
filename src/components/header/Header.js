@@ -28,11 +28,9 @@ function Header() {
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
         <a href="/" className="logo">
-          <img
-            src="https://github.com/gianlucasgiuliani/AlbanetoNovo/blob/master/src/assets/images/logo.png"
-            alt="Albaneto Logo"
-            className="logo-image"
-          />
+          <span className="grey-color"> &lt;</span>
+          <span className="logo-name">{greeting.username}</span>
+          <span className="grey-color">/&gt;</span>
         </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label
