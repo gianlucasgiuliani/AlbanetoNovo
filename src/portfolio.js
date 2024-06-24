@@ -373,7 +373,7 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Us!"),
   subtitle:
-    "Partner with us for strategic growth and leadership. Send us an e-mail and we’ll reach out shortly!",
+    "Partner with us for strategic growth and leadership./nSend us an e-mail and we’ll reach out shortly!",
   /*number: "+92-0000000000",*/
   email_address: "contact@albaneto.com"
 };
