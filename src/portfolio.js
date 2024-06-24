@@ -30,14 +30,6 @@ const greeting = {
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
-const about = {
-  title: "About Us",
-  description: emoji(
-    "🌟 At Albaneto, we are committed to driving success through cutting-edge technology and innovative business strategies. With a focus on leveraging advanced tech solutions, we empower our clients to achieve their goals and excel in their respective industries. Our approach is rooted in a deep understanding of technology and its transformative power. We utilize the latest advancements to craft solutions that are not only effective but also forward-thinking, ensuring our clients stay ahead of the curve in an ever-evolving landscape. Central to our philosophy is a client-centric mindset. We believe that the key to delivering exceptional value lies in building strong relationships. We listen attentively to our clients, understand their unique challenges, and tailor our solutions to meet their specific needs. Our commitment to unparalleled client satisfaction is reflected in the personalized attention and customized strategies we provide. With a background that includes extensive experience in international projects at multinational companies with an engineers mind, we have the ability to approach problems combining analytical rigor with practical insights. We apply this expertise to develop and refine strategies that address our clients’ needs comprehensively and effectively. At Albaneto, we are your partners in navigating the complexities of technology and business. Together, we turn challenges into opportunities and ideas into reality."
-  ),
-  displayAbout: true // Set false to hide this section, defaults to true
-};
-
 // Social Media Links
 
 const socialMediaLinks = {
@@ -160,19 +152,19 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Innovative AI Solutions", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "100%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Experienced ",
-      progressPercentage: "70%"
+      progressPercentage: "100%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "100%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -181,32 +173,32 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: false, //Set it to true to show workExperiences Section
+  display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
+      role: "How we got here",
+      company: "Where we come from",
       companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      date: "We know what we are doing",
+      desc: "At Albaneto, our extensive experience in corporate international projects equips us with a unique perspective. This is crucial for developing strategies that comprehensively address our clients’ needs.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Engineer’s Precision with a Human Touch: Combining analytical rigor with a humanized approach to solve complex problems effectively.",
+        "Global Corporate Expertise: Proven success in delivering innovative solutions for multinational corporations, driving growth and efficiency."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
+      role: "How we help you",
+      company: "Harnessing AI for competitive advantage.",
       companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "Next-gen AI solutions for industry leaders.",
+      desc: "Our deep tech understanding drives transformation. Leveraging advanced solutions, we help clients achieve goals and excel, staying ahead with forward-thinking strategies."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
+      role: "How we work",
+      company: "Our mindset",
       companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "Our clients always come first",
+      desc: "Our client-centric approach builds strong relationships. We listen, understand unique challenges, and tailor solutions for unparalleled satisfaction and successful outcomes."
     }
   ]
 };
@@ -397,7 +389,6 @@ const isHireable = false; // Set false if you are not looking for a job. Also is
 
 export {
   illustration,
-  about,
   greeting,
   socialMediaLinks,
   splashScreen,
