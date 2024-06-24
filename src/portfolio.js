@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Albaneto, ",
-  title: "Albaneto, hit the mark!",
+  title: "Hit the mark!",
   subTitle: emoji(
     "🚀 Transform your business with cutting-edge AI solutions. We deliver tailored AI strategies to enhance efficiency, drive innovation, and achieve industry excellence."
   ),
@@ -50,22 +50,22 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "What we offer",
+  subTitle: "INNOVATIVE AI SOLUTIONS DESIGNED TO OPTIMIZE AND TRANSFORM YOUR BUSINESS",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Transform your business operations with AI-powered solutions"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Leverage advanced AI tools to enhance productivity and drive innovation"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integrate cutting-edge AI technology to achieve superior market positioning"
     )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  softwareSkills: [
+  /*softwareSkills: [
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
@@ -118,7 +118,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
     }
-  ],
+  ],*/
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -207,8 +207,8 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
