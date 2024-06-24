@@ -30,6 +30,14 @@ const greeting = {
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
+const about = {
+  title: "About Us",
+  description: emoji(
+    "🌟 At Albaneto, we are committed to driving success through cutting-edge technology and innovative business strategies. With a focus on leveraging advanced tech solutions, we empower our clients to achieve their goals and excel in their respective industries. Our approach is rooted in a deep understanding of technology and its transformative power. We utilize the latest advancements to craft solutions that are not only effective but also forward-thinking, ensuring our clients stay ahead of the curve in an ever-evolving landscape. Central to our philosophy is a client-centric mindset. We believe that the key to delivering exceptional value lies in building strong relationships. We listen attentively to our clients, understand their unique challenges, and tailor our solutions to meet their specific needs. Our commitment to unparalleled client satisfaction is reflected in the personalized attention and customized strategies we provide. With a background that includes extensive experience in international projects at multinational companies with an engineers mind, we have the ability to approach problems combining analytical rigor with practical insights. We apply this expertise to develop and refine strategies that address our clients’ needs comprehensively and effectively. At Albaneto, we are your partners in navigating the complexities of technology and business. Together, we turn challenges into opportunities and ideas into reality."
+  ),
+  displayAbout: true // Set false to hide this section, defaults to true
+};
+
 // Social Media Links
 
 const socialMediaLinks = {
@@ -155,11 +163,11 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Innovative AI Solutions", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Experienced ",
       progressPercentage: "70%"
     },
     {
