@@ -50,7 +50,7 @@
   background-color: $headerHoverBG;
 }
 
-/*.header .logo {
+.header .logo {
   display: block;
   flex: none;
   float: left;
@@ -66,11 +66,6 @@
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
   padding: 0 10px;
-}
-*/
-.header .logo-image {
-  width: 100px; /* Adjust the width as needed */
-  height: auto; /* Maintain the aspect ratio */
 }
 
 /* menu */
