@@ -397,6 +397,7 @@ const isHireable = false; // Set false if you are not looking for a job. Also is
 
 export {
   illustration,
+  about;
   greeting,
   socialMediaLinks,
   splashScreen,
