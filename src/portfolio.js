@@ -66,7 +66,7 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
+    /*{
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
     },
@@ -118,7 +118,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
     }
-  ],
+  */],
   display: true // Set false to hide this section, defaults to true
 };
 
