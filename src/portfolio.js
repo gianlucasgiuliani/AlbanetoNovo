@@ -50,7 +50,7 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What we offer",
+  title: "Our Services",
   subTitle: "INNOVATIVE AI SOLUTIONS DESIGNED TO OPTIMIZE AND TRANSFORM YOUR BUSINESS",
   skills: [
     emoji(
@@ -373,7 +373,7 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Us!"),
   subtitle:
-    "Partner with us for strategic growth and leadership./nSend us an e-mail and we’ll reach out shortly!",
+    "Partner with us for strategic growth and leadership.\nSend us an e-mail and we’ll reach out shortly!",
   /*number: "+92-0000000000",*/
   email_address: "contact@albaneto.com"
 };
