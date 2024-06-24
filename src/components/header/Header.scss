@@ -54,10 +54,14 @@
   display: block;
   flex: none;
   float: left;
-  font-size: 1.5em;
   text-decoration: none;
   margin-top: 10px;
   line-height: normal;
+}
+
+.header .logo-image {
+  max-height: 40px; /* Adjust this value as needed */
+  width: auto;
 }
 
 .header .logo-name {
