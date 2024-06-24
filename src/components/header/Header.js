@@ -3,7 +3,6 @@ import Headroom from "react-headroom";
 import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
-import logo from "/src/assets/images/logo.png";
 import {
   greeting,
   workExperiences,
@@ -28,8 +27,12 @@ function Header() {
   return (
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
-        <a href="/src/assets/images/logo.png" className="logo">
-          <img src={logo} alt="Albaneto Logo" className="logo-image" />
+        <a href="/" className="logo">
+          <img
+            src="https://github.com/gianlucasgiuliani/AlbanetoNovo/blob/master/src/assets/images/logo.png"
+            alt="Albaneto Logo"
+            className="logo-image"
+          />
         </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label
