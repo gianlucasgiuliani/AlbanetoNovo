@@ -20,7 +20,7 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Albaneto, ",
+  username: "Albaneto",
   title: "Hit the mark!",
   subTitle: emoji(
     "🚀 Transform your business with cutting-edge AI solutions. We deliver tailored AI strategies to enhance efficiency, drive innovation, and achieve industry excellence."
@@ -397,7 +397,7 @@ const isHireable = false; // Set false if you are not looking for a job. Also is
 
 export {
   illustration,
-  about;
+  about,
   greeting,
   socialMediaLinks,
   splashScreen,
