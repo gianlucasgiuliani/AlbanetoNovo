@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Albaneto, ",
-  title: "Albaneto, your AI firm!",
+  title: "Albaneto, hit the mark!",
   subTitle: emoji(
     "🚀 Transform your business with cutting-edge AI solutions. We deliver tailored AI strategies to enhance efficiency, drive innovation, and achieve industry excellence."
   ),
