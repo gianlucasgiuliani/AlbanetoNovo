@@ -180,10 +180,10 @@ const workExperiences = {
       company: "Where we come from",
       companylogo: require("./assets/images/facebookLogo.png"),
       date: "We know what we are doing",
-      desc: "At Albaneto, our extensive experience in corporate international projects equips us with a unique perspective. This is crucial for developing strategies that comprehensively address our clients’ needs.",
+      desc: "Our extensive experience in corporate international projects equips us with a unique perspective.",
       descBullets: [
-        "Engineer’s Precision with a Human Touch: Combining analytical rigor with a humanized approach to solve complex problems effectively.",
-        "Global Corporate Expertise: Proven success in delivering innovative solutions for multinational corporations, driving growth and efficiency."
+        "Combining Engineer's precision with a humanized approach to solve complex problems effectively.",
+        "Proven success in delivering innovative solutions for multinational corporations, driving growth and efficiency."
       ]
     },
     {
