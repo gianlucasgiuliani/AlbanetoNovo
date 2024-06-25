@@ -3,7 +3,7 @@ import Headroom from "react-headroom";
 import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
-import logo from "../../assets/images/lightLogo.png";
+import lightLogo from "../../assets/images/lightLogo.png";
 import darkLogo from "../../assets/images/darkLogo.png"; // import the dark theme logo
 
 import {
