@@ -3,7 +3,7 @@ import Headroom from "react-headroom";
 import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
-import logo from "../../assets/images/logo.png";
+import logo from "../../assets/images/lightLogo.png";
 import darkLogo from "../../assets/images/darkLogo.png"; // import the dark theme logo
 
 import {
@@ -32,7 +32,7 @@ function Header() {
       <header className={isDark ? "dark-menu header" : "header"}>
          <a href="/" className="logo">        
           <img 
-            src={isDark ? darkLogo : Logo} 
+            src={isDark ? darkLogo : lightLogo} 
             alt={greeting.username} 
             className="logo-image"
           />
