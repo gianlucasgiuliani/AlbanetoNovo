@@ -5,8 +5,6 @@ import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
 import logo from "../../assets/images/logo.png";
 
-console.log("Logo path:", logo);
-
 import {
   greeting,
   workExperiences,
