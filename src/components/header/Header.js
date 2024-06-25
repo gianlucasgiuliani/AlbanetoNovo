@@ -29,7 +29,7 @@ function Header() {
       <header className={isDark ? "dark-menu header" : "header"}>
          <a href="/" className="logo">
           <img 
-            src="./assets/images/logo.png" 
+            src=("./assets/images/logo.png") 
             alt={greeting.username} 
             className="logo-image"
           />
