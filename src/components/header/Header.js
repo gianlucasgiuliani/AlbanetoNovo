@@ -3,6 +3,7 @@ import Headroom from "react-headroom";
 import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
+import logo from "../../assets/images/logo.png";
 import {
   greeting,
   workExperiences,
@@ -29,7 +30,7 @@ function Header() {
       <header className={isDark ? "dark-menu header" : "header"}>
          <a href="/" className="logo-image">
           <img 
-            require="src/assets/images/logo.png" 
+            src={require("../../assets/images/logo.png")} 
             alt={greeting.username} 
             className="logo-image"
           />
