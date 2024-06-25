@@ -29,7 +29,7 @@ function Header() {
   return (
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
-         <a>        
+         <a href="/" className="logo">        
           <img 
             src={logo}
             alt={greeting.username} 
