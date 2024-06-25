@@ -28,12 +28,13 @@ function Header() {
   return (
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
-         <img 
+         <a>        
+          <img 
             src={logo}
             alt={greeting.username} 
             className="logo-image"
-        />
-  </a>
+          />
+        </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label
           className="menu-icon"
