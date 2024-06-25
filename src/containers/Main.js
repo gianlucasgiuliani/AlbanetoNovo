@@ -39,10 +39,10 @@ const Main = () => {
     }
   }, []);
 
-  /*const changeTheme = () => {
+  const changeTheme = () => {
     setIsDark(!isDark);
   };
-*/
+
   return (
     <div className={isDark ? "dark-mode" : null}>
       <StyleProvider value={{isDark: isDark, changeTheme: changeTheme}}>
