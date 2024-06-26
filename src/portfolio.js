@@ -188,7 +188,7 @@ const workExperiences = {
     },
     {
       role: "How we help you",
-      company: "Harnessing AI for competitive advantage.",
+      company: "Harnessing AI for growth.",
       companylogo: require("./assets/images/quoraLogo.png"),
       date: "Next-gen AI solutions for industry leaders.",
       desc: "Our deep tech understanding drives transformation. Leveraging advanced solutions, we help clients achieve goals and excel, staying ahead with forward-thinking strategies."
