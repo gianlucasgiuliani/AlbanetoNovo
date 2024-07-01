@@ -42,7 +42,8 @@ export default function Greeting() {
                 
                   <a
                     href="https://cal.com/albaneto/meeting"
-                    
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="download-link-button"
                   >
                     <Button text="Schedule a meeting" />
