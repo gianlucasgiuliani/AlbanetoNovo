@@ -26,7 +26,7 @@ const greeting = {
     "🚀 Transform your business with cutting-edge AI solutions. We deliver tailored AI strategies to enhance efficiency, drive innovation, and achieve industry excellence."
   ),
   resumeLink:
-    "https://cal.com/albaneto/meeting", // Set to empty to hide the button
+    "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
