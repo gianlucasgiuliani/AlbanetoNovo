@@ -39,7 +39,7 @@ export default function Greeting() {
               <SocialMedia />
               <div className="button-greeting-div">
                 <Button text="Contact Us" href="#contact" />
-                {greeting.resumeLink && (
+                
                   <a
                     href="https://cal.com/albaneto/meeting"
                     
@@ -47,7 +47,7 @@ export default function Greeting() {
                   >
                     <Button text="Schedule a meeting" />
                   </a>
-                )}
+                
               </div>
             </div>
           </div>
