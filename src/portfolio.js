@@ -310,7 +310,7 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "Check our latest articles about industry trends.",
+    "Check our latest articles about industry trends. More at medium.com/@albaneto .",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
@@ -318,6 +318,12 @@ const blogSection = {
       title: "Vision and Mission Statement",
       description:
         "What moves the people behind Albaneto."
+    },
+    {
+      url: "https://albaneto.medium.com/openais-5-levels-of-artificial-intelligence-2228bad368b3",
+      title: "OpenAI's 5 Levels of Artificial Intelligence",
+      description:
+        "Ever wondered where we stand with AI? Discover the 5 levels of AI progress as defined by OpenAI."
     }
   ],
   display: true // Set false to hide this section, defaults to true
