@@ -41,7 +41,7 @@ export default function Greeting() {
                 <Button text="Contact Us" href="#contact" />
                 
                   <a
-                    href="https://cal.com/albaneto/meeting"
+                    href="https://outlook.office365.com/owa/calendar/Bookameetingwithme@albaneto.com/bookings/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="download-link-button"
